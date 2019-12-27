@@ -129,18 +129,7 @@ tidy_data_summary <- read.table(file  = "tidy_data_summary.txt",
    
 ### About 'tidy_data_summary' table 
 
-This dataset was created for the needs of: 
-
-> Course 3: 'Getting and Cleaning Data', 
-> from 'Data Science Specialization', 
-> by 'Johns Hopkins University', 
-> on Coursera 
->
-> The course is taught by: 
->
->    - Jeff Leek, Phd 
->    - Roger D. Peng, Phd 
->    - Brian Caffo, Phd 
+This dataset was created for the needs of course assignment
  
 The data table can be reproduced,
 as all required scripts are available on the Git Hub repository
@@ -156,21 +145,7 @@ the following notes should be taken into account:
   - The data was then processed by the script 
     '[run_analysis.R](https://github.com/JingChen1114/GettingAndCleaningDataCourse/blob/master/run_analysis.R)'
     to create the 'tidy_data_summary' table.
-  - The scripts were executed in RStudio (version 1.1.383)
-  - The library 'dplyr' version 0.7.4 was used.
-  - The output produced by 'R.version' is the following:
- 
-```
-platform       x86_64-pc-Windows       
-arch           x86_64                     
-os             Windows                 
-system         x86_64, Windows                       
-language       R                          
-version.string R version 3.6.2 
 
-``` 
-  
-*** 
 ## The process by which the 'tidy_data_summary' table was produced  
 
 In order to produce the 'tidy_data_summary' table,
