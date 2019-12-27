@@ -149,12 +149,12 @@ Before trying to reproduce it,
 the following notes should be taken into account:
  
   - The data used for the download was accessed by the script
-    '[get_project_data.R](https://github.com/jzstats/Getting-and-Cleaning-Data-Assignment/blob/master/get_project_data.R)', 
+    '[get_project_data.R](https://github.com/JingChen1114/GettingAndCleaningDataCourse/blob/master/get_project_data.R)', 
     from the url:
     "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
     at 'Fri Dec 27 15:42:54 2019'.
   - The data was then processed by the script 
-    '[run_analysis.R](https://github.com/jzstats/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R)'
+    '[run_analysis.R](https://github.com/JingChen1114/GettingAndCleaningDataCourse/blob/master/run_analysis.R)'
     to create the 'tidy_data_summary' table.
   - The scripts were executed in RStudio (version 1.1.383)
   - The library 'dplyr' version 0.7.4 was used.
@@ -175,7 +175,7 @@ version.string R version 3.6.2
 
 In order to produce the 'tidy_data_summary' table,
 the script 
-'[run_analysis.R](https://github.com/jzstats/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R)'
+'[run_analysis.R](https://github.com/JingChen1114/GettingAndCleaningDataCourse/blob/master/run_analysis.R)'
 was created and used. 
 It performs the following tasks: 
  
@@ -357,26 +357,6 @@ and also it include the following notes:
 > - Features are normalized and bounded within [-1,1]. 
 > - Each feature vector is a row on the text file. 
  
-
-### About the original dataset 
- 
-The 'tidy_data_summary' table was created by using the following data set: 
- 
-> Human Activity Recognition Using Smartphones Dataset Version 1.0 
->  
-> Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. 
-> Smartlab - Non Linear Complex Systems Laboratory 
-> DITEN - Universit? degli Studi di Genova. 
-> Via Opera Pia 11A, I-16145, Genoa, Italy. 
-> activityrecognition@smartlab.ws 
-> www.smartlab.ws 
- 
- 
-More informations about the original data set can be found
-[here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
- 
- 
-*** 
 ### License  
 
 The following is a copy-paste from the 'README.txt' of the original data set
